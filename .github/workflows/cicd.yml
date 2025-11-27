@@ -14,7 +14,7 @@ jobs:
             - name: Set up Node.js 
               uses: actions/setup-node@v3 
               with:
-                node-version: "16"
+                node-version: "20"
             
             - name: Install dependencies
               run: npm install
@@ -42,6 +42,6 @@ jobs:
                     - PR Link: ${{ github.event.pull_request.html_url }}
 
                     Please check the details in the Github Actions logs.
-                    to: sarahdahner97@gmail.com
-                    from: CI Bot <ci-bot@sample.com>
+                to: sarahdahner97@gmail.com
+                from: CI Bot <ci-bot@sample.com>
 
